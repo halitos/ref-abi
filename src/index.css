@@ -35,7 +35,6 @@ button {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    /* margin-left: 20px; */
   }
 }
 
@@ -47,8 +46,6 @@ button {
   }
 
   .formLabel {
-    /* display: inline; */
-    /* width: 100%; */
     margin-right: 4px;
     font-size: 0.875rem;
   }
