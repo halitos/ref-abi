@@ -1,0 +1,60 @@
+body {
+  background-color: #bfc9ca;
+  margin: 0 auto;
+  padding: 2rem;
+  max-width: 1600px;
+}
+
+.heading {
+  color: red;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  color: red;
+}
+
+.formLabel {
+  display: inline;
+  width: 30%;
+}
+
+.section {
+  width: 100%;
+}
+
+button {
+  margin-left: 12px;
+}
+
+@media (max-width: 960px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* margin-left: 20px; */
+  }
+}
+
+@media (max-width: 780px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .formLabel {
+    /* display: inline; */
+    /* width: 100%; */
+    margin-right: 4px;
+    font-size: 0.875rem;
+  }
+
+  .group {
+    flex-direction: column;
+    margin: auto;
+  }
+}
